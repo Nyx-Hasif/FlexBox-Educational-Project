@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="flex-box">
+      <h1>Flexbox/align/justify/flex-direction</h1>
+      <p>this is box-sizing.it will define to original height and width</p>
+    </div>
+    <!-- ==================================================================================== -->
+    <div id="main">
+      <h1>This is display flex</h1>
+      <div style="background-color: coral; min-height: 50px">RED</div>
+      <div style="background-color: lightblue; min-height: 50px">BLUE</div>
+      <div style="background-color: lightgreen; min-height: 50px">
+        Green div with more content.
+      </div>
+    </div>
+    <!-- ====================================================================================== -->
+    <div class="inline block">
+      <h1>CSS Inline,block,inline-block</h1>
+      <h2>(i) inline (start at same line)</h2>
+      <div class="container">
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          1
+        </div>
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          2
+        </div>
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          3
+        </div>
+      </div>
+      <h2>(ii) block (block always start at new line)</h2>
+      <div class="container2">
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          1
+        </div>
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          2
+        </div>
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          3
+        </div>
+      </div>
+      <h2>(iii) inline-block (same line but at center)</h2>
+      <div class="container3">
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          1
+        </div>
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          2
+        </div>
+        <div style="background-color: chocolate; width: 100px; height: 100px">
+          3
+        </div>
+      </div>
+      <!-- ============================================================================== -->
+    </div>
+    <div class="flex1">
+      <h1>flex:1/gap</h1>
+      <div class="containerflex">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+    </div>
+
+    <!-- =------------------------------------------------------= -->
+    <div id="flex-nowrap">
+      <h1>flex-nowrap</h1>
+
+      <div id="nowrap-container">
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+      </div>
+    </div>
+    <!-- ============================================================= -->
+
+    <div id="flex-wrap">
+      <h1>flex-wrap</h1>
+      <div id="wrap-container">
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+      </div>
+    </div>
+    <!-- ============================================================= -->
+
+    <div id="flex-direction-column">
+      <h1>flex-direction column</h1>
+      <div id="direction-container">
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+      </div>
+    </div>
+
+    <!-- ============================================================= -->
+
+    <div id="flex-direction-rowreverse">
+      <h1>flex-direction-rowreverse</h1>
+      <div id="direction-container2">
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        \
+      </div>
+    </div>
+
+    <!-- ============================================================= -->
+
+    <div id="flex-direction-row">
+      <h1>flex-direction-row</h1>
+      <div id="direction-container3">
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">A</div>
+      </div>
+    </div>
+
+    <!-- ============================================================= -->
+
+    <div id="flex-direction-columnreverse">
+      <h1>flex-direction-columnreverse</h1>
+      <div id="direction-container4">
+        <div style="background-color: coral">A</div>
+        <div style="background-color: coral">B</div>
+        <div style="background-color: coral">C</div>
+        <div style="background-color: coral">D</div>
+        <div style="background-color: coral">E</div>
+        <div style="background-color: coral">F</div>
+        <div style="background-color: coral">G</div>
+      </div>
+    </div>
+  </body>
+</html>
